@@ -1,0 +1,68 @@
+<?xml version="1.1"?>
+<!DOCTYPE Tabula_Rasa>
+<Algorithme>
+  <nom>Structure P4</nom>
+  <date_creation>12/8/2022 19:38</date_creation>
+  <Elements>
+    <Iteration>
+      <Position>606.5;177.5</Position>
+      <StyleLien>1</StyleLien>
+      <Titre>?</Titre>
+      <IterationFixe>0</IterationFixe>
+      <Enfants/>
+    </Iteration>
+    <Procedure>
+      <Position>134;312</Position>
+      <StyleLien>1</StyleLien>
+      <PreAssertion>?</PreAssertion>
+      <PostAssertion>colonneCourante,
+[actionEffectuee]</PostAssertion>
+      <Titre>gereAction</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants/>
+    </Procedure>
+    <Condition>
+      <Position>484;321</Position>
+      <StyleLien>1</StyleLien>
+      <estUnique>1</estUnique>
+      <operationsLogiques>
+        <operation>
+          <Titre>souris bougee</Titre>
+          <Enfants/>
+        </operation>
+        <operation>
+          <Titre>Sinon</Titre>
+          <Enfants/>
+        </operation>
+      </operationsLogiques>
+    </Condition>
+    <Condition>
+      <Position>870;318</Position>
+      <StyleLien>1</StyleLien>
+      <estUnique>1</estUnique>
+      <operationsLogiques>
+        <operation>
+          <Titre>joueur joue
+(clic gauche)</Titre>
+          <Enfants/>
+        </operation>
+        <operation>
+          <Titre>Sinon</Titre>
+          <Enfants/>
+        </operation>
+      </operationsLogiques>
+    </Condition>
+    <Procedure>
+      <Position>355;420</Position>
+      <StyleLien>1</StyleLien>
+      <PreAssertion>ancienneColonne,
+colonneCourante</PreAssertion>
+      <PostAssertion>?</PostAssertion>
+      <Titre>majAffColonnesSelectionnee</Titre>
+      <DetailsVisible>1</DetailsVisible>
+      <DetailsVideVisible>0</DetailsVideVisible>
+      <Enfants/>
+    </Procedure>
+  </Elements>
+</Algorithme>
